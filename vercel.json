@@ -1,11 +1,6 @@
 {
   "version": 2,
   "name": "coinbase-cors-proxy",
-  "functions": {
-    "api/ticker.js": {
-      "runtime": "edge"
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",
