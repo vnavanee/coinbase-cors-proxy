@@ -1,16 +1,9 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/api/ticker", "destination": "/api/ticker" }
-  ],
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept" }
-      ]
+  "framework": null,
+  "functions": {
+    "api/ticker.js": {
+      "runtime": "nodejs20.x"
     }
-  ]
+  }
 }
