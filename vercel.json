@@ -1,9 +1,4 @@
 {
   "version": 2,
-  "framework": null,
-  "functions": {
-    "api/ticker.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "outputDirectory": ""
 }
